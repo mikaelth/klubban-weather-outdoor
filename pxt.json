@@ -5,7 +5,7 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "weatherbit": "github:sparkfun/pxt-weather-bit#v0.0.15"
+        "weatherbit": "file:../klubban-weatherbit"
     },
     "files": [
         "main.blocks",
