@@ -5,7 +5,8 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "weatherbit": "file:../klubban-weatherbit"
+        "weatherbit": "file:../klubban-weatherbit",
+        "weatherbit-klubban-adaptation": "github:mikaelth/klubban-weatherbit#main"
     },
     "files": [
         "main.blocks",
@@ -15,6 +16,10 @@
     "testFiles": [
         "test.ts"
     ],
+    "targetVersions": {
+        "target": "6.0.16",
+        "targetId": "microbit"
+    },
     "supportedTargets": [
         "microbit"
     ],
